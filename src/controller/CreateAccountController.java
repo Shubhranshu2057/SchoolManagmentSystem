@@ -29,7 +29,7 @@ public class CreateAccountController {
             }
         }
         int tempnew = code();
-       accountdb[Accountcount] = new AccountEntityAcces(first,last,Username,password,tempnew,"user","active",1800,false);
+       accountdb[Accountcount] = new AccountEntityAcces(first,last,Username,password,tempnew,"student","active",1800,false,0);
         System.out.println("Account Created Successfully");
         return true;
     }

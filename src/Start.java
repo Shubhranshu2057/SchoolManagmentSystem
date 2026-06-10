@@ -43,7 +43,7 @@ public class Start {
                 //login
                 case 1:
                     LoginController login = new LoginController();
-                    login.login();
+                    login.login(accountentity,accountacoount);
                     break;
 
                     //Account Create
@@ -53,9 +53,9 @@ public class Start {
                         accountacoount++;
                     }
                     break;
-
                     //Help
                 case 3:
+
                     break;
                     //Invalid
                 case 0:

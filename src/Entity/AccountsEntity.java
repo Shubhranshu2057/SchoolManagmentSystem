@@ -10,6 +10,15 @@ public class AccountsEntity {
     private String status;
     private int fees;
     private boolean paidfees;
+    private int attempts;
+
+    public int getAttempts() {
+        return attempts;
+    }
+
+    public void setAttempts(int attempts) {
+        this.attempts = attempts;
+    }
 
     public String getFirst() {
         return First;
@@ -83,7 +92,7 @@ public class AccountsEntity {
         this.paidfees = paidfees;
     }
 
-    public AccountsEntity(String first, String last, String username, String password, int code, String type, String status, int fees, boolean paidfees) {
+    public AccountsEntity(String first, String last, String username, String password, int code, String type, String status, int fees, boolean paidfees,int attempts) {
         First = first;
         Last = last;
         Username = username;
@@ -93,5 +102,6 @@ public class AccountsEntity {
         this.status = status;
         this.fees = fees;
         this.paidfees = paidfees;
+        this.attempts=attempts;
     }
 }
