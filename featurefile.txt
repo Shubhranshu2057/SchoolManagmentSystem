@@ -1,0 +1,95 @@
+If your School Management System has Teacher Panel and Student Panel, you can make it feel like a real school portal.
+
+🔐 Login System
+Login
+Forgot Password
+Change Password
+Account Lock after 3 failed attempts
+Logout
+👨‍🏫 Teacher Panel
+Dashboard
+Total Students
+Classes Assigned
+Subjects Assigned
+Today's Attendance Summary
+Recent Announcements
+Student Management
+View Students
+Search Students
+View Student Profiles
+View Parent Details
+Attendance
+Mark Attendance
+Edit Attendance
+View Attendance History
+Monthly Attendance Reports
+Marks & Exams
+Add Marks
+Edit Marks
+View Results
+Generate Report Cards
+Grade Calculation
+Assignments
+Create Assignment
+Upload Assignment
+Set Deadline
+View Student Submissions
+Grade Assignments
+Notices
+Create Notice
+Delete Notice
+View Notices
+Class Management
+View Class Roster
+View Subject List
+Class Performance Analysis
+Messaging
+Send Message to Student
+Send Message to Parent
+View Inbox
+Profile
+Update Profile
+View Salary Information
+Change Password
+👨‍🎓 Student Panel
+Dashboard
+Student Information
+Attendance Percentage
+Upcoming Exams
+Pending Assignments
+Recent Notices
+Profile
+View Profile
+View Parent Details
+Change Password
+Attendance
+View Attendance
+Monthly Attendance Report
+Attendance Percentage
+Results
+View Marks
+View Grades
+Download Report Card
+Rank in Class
+Assignments
+View Assignments
+Submit Assignment
+Check Submission Status
+View Assignment Grades
+Timetable
+Daily Timetable
+Weekly Timetable
+Notices
+View School Notices
+View Class Notices
+Fees
+View Fee Status
+View Payment History
+Download Receipts
+Library
+View Issued Books
+Due Dates
+Fine Information
+Messaging
+Send Message to Teacher
+View Replies
