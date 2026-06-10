@@ -1,5 +1,9 @@
+import Entity.AccountEntityAcces;
+import Entity.AccountsEntity;
+import controller.CreateAccountController;
 import controller.LoginController;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Start {
@@ -7,6 +11,9 @@ public class Start {
     public static void main(String [] args){
         Scanner sc =new Scanner(System.in);
         int choise = 1;
+        int size = 500;
+        int accountacoount =0;
+        AccountEntityAcces[] accountentity = new AccountEntityAcces[size];
         String message = """
                 ----School Management System----
                 1)Login
@@ -17,7 +24,20 @@ public class Start {
         while(choise>0){
             System.out.println(message);
             System.out.println("Enter Your Options:");
-            choise = sc.nextInt();
+
+            while (true){
+                try {
+                    choise = sc.nextInt();
+                    break;
+                }catch (InputMismatchException E){
+                    System.out.println(message);
+                    System.out.println("Required 1-0 Options!");
+                    sc.nextLine();
+                }
+            }
+
+
+
             switch (choise){
 
                 //login
@@ -28,6 +48,10 @@ public class Start {
 
                     //Account Create
                 case 2:
+                    CreateAccountController create = new CreateAccountController();
+                    if(create.CreateAccount(accountentity,accountacoount)){
+                        accountacoount++;
+                    }
                     break;
 
                     //Help
